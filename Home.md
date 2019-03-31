@@ -1,1 +1,1 @@
-Welcome to the toolbox-webseite wiki!
+Dies ist der Quellcode zur aktuellen Webseite des Maker- und Hackspace Toolbox Bodensee e.V., die unter [toolbox-bodensee.de](https://toolbox-bodensee.de/) erreichbar ist.
