@@ -5,10 +5,17 @@ Damit lässt sich das Projekt innerhalb eines *Containers* bauen und sogar der L
 Der Einfachheit halber stehen mehrere *make* **docker-** Befehle zur Verfügung. Der Projektordner sowie die Lektor-cache `.cache/lektor` werden als Volume zu der Container angehängt.
 
 ```bash
-make docker-pull # lädt die Lektor Docker Image vom Docker Hub herunter
-make docker-build # baut die Assets und die lektor cache (lektor build)
-make docker-server # führt den Lektor Server auf localhost:5000 aus
-make docker-shell # führt eine Shell aus innerhalb des Containers. Diese kann man zum Debuggen nutzen.
+# lädt die Lektor Docker Image vom Docker Hub herunter
+make docker-pull
+
+# baut die Assets und die lektor cache (lektor build)
+make docker-build
+
+# führt den Lektor Server auf localhost:5000 aus
+make docker-server
+
+# führt eine Shell aus innerhalb des Containers. Diese kann man zum Debuggen nutzen.
+make docker-shell
 ```
 
 **Tipp:** Zum Verwenden von Docker muss ``docker`` installiert sein und als Service gestartet sein.<br/>
