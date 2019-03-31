@@ -10,3 +10,5 @@
     * [Design](https://github.com/ToolboxBodensee/toolbox-webseite/wiki/Grundlagen%3A-Design)
     * [CSS](https://github.com/ToolboxBodensee/toolbox-webseite/wiki/Grundlagen%3A-CSS)
   * [Contribution](https://github.com/ToolboxBodensee/toolbox-webseite/wiki/Contribution)
+    * [Pull Requests Reviewen](https://github.com/ToolboxBodensee/toolbox-webseite/wiki/Contribution%3A-Pull-Requests)
+    * [Projekte ergänzen](https://github.com/ToolboxBodensee/toolbox-webseite/wiki/Contribution%3A-Projekte)
