@@ -9,3 +9,4 @@
     * [git LFS](https://github.com/ToolboxBodensee/toolbox-webseite/wiki/Grundlagen%3A-git-LFS)
     * [Design](https://github.com/ToolboxBodensee/toolbox-webseite/wiki/Grundlagen%3A-Design)
     * [CSS](https://github.com/ToolboxBodensee/toolbox-webseite/wiki/Grundlagen%3A-CSS)
+  * [Contribution](https://github.com/ToolboxBodensee/toolbox-webseite/wiki/Contribution)
