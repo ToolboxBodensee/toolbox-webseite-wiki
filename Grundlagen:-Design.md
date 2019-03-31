@@ -1,0 +1,3 @@
+Das Webseiten-Layout basiert auf [HTML5UP](https://html5up.net), genauer gesagt auf dem Design [Landed](https://html5up.net/landed). Und wurde natürlich für die Toolbox-Webseite angepasst!
+
+Bei der Farbwahl (z.B. Menüfarben) sollte das [Toolbox Presse-Kit](https://github.com/ToolboxBodensee/presskit) berücksichtigt werden. ![#E64F2D](https://placehold.it/15/E64F2D/000000?text=+) `#E64F2D` Orange und ![#9B160F](https://placehold.it/15/9B160F/000000?text=+) `#9B160F` Rot sind hier die Primärfarben.
