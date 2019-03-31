@@ -3,6 +3,7 @@
   * [Home](https://github.com/ToolboxBodensee/toolbox-webseite/wiki/Home)
   * [Installation](https://github.com/ToolboxBodensee/toolbox-webseite/wiki/Installation)
     * [Python](https://github.com/ToolboxBodensee/toolbox-webseite/wiki/Installation%3A-Python)
+    * [Python in virtual environment](https://github.com/ToolboxBodensee/toolbox-webseite/wiki/Installation%3A-Python-virtual-environment)
     * [Docker](https://github.com/ToolboxBodensee/toolbox-webseite/wiki/Installation%3A-Docker)
   * [Grundlagen](https://github.com/ToolboxBodensee/toolbox-webseite/wiki/Grundlagen)
     * [Lektor CMS](https://github.com/ToolboxBodensee/toolbox-webseite/wiki/Grundlagen%3A-Lektor-CMS)
