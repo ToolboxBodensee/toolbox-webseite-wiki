@@ -1,4 +1,4 @@
-Lektor ist alsPython-Modul verfügbar und kann mit ``python2 -m lektor`` verwendet werden.
+Lektor ist als Python-Modul verfügbar und kann mit ``python2 -m lektor`` verwendet werden.
 Auch die Installation über pip *(in einem [virtuellen Enviroment](https://docs.python.org/3/tutorial/venv.html)* ist möglich:
 ```bash
 # create virtual enviroment
