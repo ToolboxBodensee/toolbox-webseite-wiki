@@ -25,7 +25,7 @@ Auch zum Starten des Servers muss in das root-Verzeichnis der Webseite gewechsel
 ```bash
 make server
 ```
-starten. Im Browser lässt sich die Webseite dann mit 127.0.0.1:5000 aufrufen und auch bearbeitet werden.
+starten. Im Browser lässt sich die Webseite dann mit http://localhost:5000/ aufrufen und auch bearbeitet werden.
 
 Sollen während der Server läuft die Assets (css und javascript) neu gebaut werden, weil diese sich geändert haben, so lässt sich dies mit
 ```bash
