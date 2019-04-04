@@ -4,6 +4,7 @@ Das war mit mehreren MB großen Bildern schon schlimm, aber noch verkraftbar. In
 Zur Verwendung von git-lfs muss die git-lfs command line extention installiert sein!
 Die geschieht auf den gängigsten Platformen zB. mit:
 
+
 ```bash
 sudo apt install git-lfs
 ```
