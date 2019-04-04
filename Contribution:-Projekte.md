@@ -8,6 +8,7 @@
 8. Änderungen hochladen (git push)
 9. Pull Request Stellen (übers GitHub Interface)
 
-*Hinweise*
+
+**Hinweise**
 -  Die Versionskontrolle der Webseite findet über Git statt. Daher wenn möglich Bilder erst
 bearbeiten/einfügen wenn diese veröffentlicht werden
