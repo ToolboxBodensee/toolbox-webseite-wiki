@@ -1,20 +1,33 @@
-Lektor ist als Python-Modul verfügbar und kann mit 
+Für die Installation mit Python muss der Source Code von git geladen werden. Hierzu werden folgende Programme benötigt:
+- git
+- git-lfs
+
+Die geschieht auf den gängigeren Linux Platformen zB. mit:
+```bash
+sudo apt install git git-lfs
+```
+oder
+```bash
+sudo pacman -S git git-lfs
+```
+Eine Installation ist entsprechend auch auf Windows und Mac möglich (eine entsprechende Installationsanleitung findet sich nach kurzer Such mit der Suchmaschine deiner Wahl)
+
+Für die Installation von Lektor und weiteren benötigten Programmen muss in der Kommandozeile in das root-Verzeichnis der Webseite gewechselt werden. Die Installation erfolgt mit
 ```bash
 make install
 ```
-installiert werden. Auch die Installation *in einem [virtuellen Enviroment](https://docs.python.org/3/tutorial/venv.html)* ist möglich mit:
+Auch die Installation *in einem [virtuellen Enviroment](https://docs.python.org/3/tutorial/venv.html)* ist möglich mit:
 ```bash
 make install-virtual-env
 ```
 
-Zum Starten von Lektor muss man mit der Kommandozeile in das root-Verzeichnis der Webseite wechseln
-und kann dort mit
+Auch zum Starten des Servers muss in das root-Verzeichnis der Webseite gewechselt werden. Der Server lässt sich mit
 ```bash
 make server
 ```
-den Lektor Server starten. Im Browser lässt sich die Webseite dann mit 127.0.0.1:5000 aufgerufen und auch bearbeitet werden.
+starten. Im Browser lässt sich die Webseite dann mit 127.0.0.1:5000 aufrufen und auch bearbeitet werden.
 
-Soll während der Server läuft die Assets (css und javascript) neu gebaut werden, weil diese sich geändert haben, so lässt sich dies mit
+Sollen während der Server läuft die Assets (css und javascript) neu gebaut werden, weil diese sich geändert haben, so lässt sich dies mit
 ```bash
 make build
 ```
