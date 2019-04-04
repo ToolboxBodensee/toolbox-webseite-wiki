@@ -7,7 +7,7 @@ installiert werden. Auch die Installation *in einem [virtuellen Enviroment](http
 make install-virtual-env
 ```
 
-Zum Starten von Lektor muss man mit der Komandozeile in das root-Verzeichnis der Webseite gehen
+Zum Starten von Lektor muss man mit der Kommandozeile in das root-Verzeichnis der Webseite wechseln
 und kann dort mit
 ```bash
 make server
