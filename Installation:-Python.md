@@ -1,16 +1,21 @@
-Lektor ist als Python-Modul verfügbar und kann mit ``python2 -m lektor`` verwendet werden.
-Auch die Installation über pip *(in einem [virtuellen Enviroment](https://docs.python.org/3/tutorial/venv.html)* ist möglich:
+Lektor ist als Python-Modul verfügbar und kann mit 
 ```bash
-# create virtual enviroment
-virtualenv venv
-# activate virtual enviroment
-. venv/bin/activate
-# install lektor to virtual enviroment
-pip install lektor
-
-# install ruby-sass (for css styles)
-gem install sass
+make install
+```
+installiert werden. Auch die Installation *in einem [virtuellen Enviroment](https://docs.python.org/3/tutorial/venv.html)* ist möglich mit:
+```bash
+make install-virtual-env
 ```
 
 Zum Starten von Lektor muss man mit der Komandozeile in das root-Verzeichnis der Webseite gehen
-und dort mit dem Befehl ``lektor server`` Lektor starten. Im Browser kann dann 127.0.0.1:5000 aufgerufen werden, um die Webseite zu bearbeiten.
+und kann dort mit
+```bash
+make server
+```
+den Lektor Server starten. Im Browser lässt sich die Webseite dann mit 127.0.0.1:5000 aufgerufen und auch bearbeitet werden.
+
+Soll während der Server läuft die Assets (css und javascript) neu gebaut werden, weil diese beispielsweise abgeändert wurden, so lässt sich dies mit
+```bash
+make build
+```
+erreichen
