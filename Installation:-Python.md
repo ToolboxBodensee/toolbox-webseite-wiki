@@ -14,7 +14,7 @@ make server
 ```
 den Lektor Server starten. Im Browser lässt sich die Webseite dann mit 127.0.0.1:5000 aufgerufen und auch bearbeitet werden.
 
-Soll während der Server läuft die Assets (css und javascript) neu gebaut werden, weil diese beispielsweise abgeändert wurden, so lässt sich dies mit
+Soll während der Server läuft die Assets (css und javascript) neu gebaut werden, weil diese sich geändert haben, so lässt sich dies mit
 ```bash
 make build
 ```
