@@ -11,6 +11,7 @@ script:
   git remote add upstream https://$GITHUB_API_KEY@github.com/ToolboxBodensee/toolbox-webseite.wiki.git > /dev/null 2>&1
   git fetch origin
   git push --force upstream HEAD:master > /dev/null 2>&1
+
 env:
   matrix:
     secure: TPegV6+B+cvegsZvbxuk8cqcLod3NhsUqCImG5lZk7z0SHW8bdVXK5Lgk3fAaU8qA4QyurEXkMdx+YKcRVyKwoXFYDxH0hNsejCf3YnfUqYYzmhOVECMi/ZRfJBTlFx+S0mqSIR3ehT34fAQ5ZApduqyjcx8EVBBgG9OL8/hBASF8lz1cUZSZSywBYIKKmTnhMuSHJLskSts9GHAsGwOfeVZflyQfBWe32cbtVju0xIKkfl6H/jWI9EoEMQsalDqv5Ona68z0U+DkH7mjKd50D0vXee65ljJeQQesU+DwCQ7ZpFvDtVpuuEjL+PyYyc/cFtjeJp9NaRrDF6iQ2kAPwDcLC9y88si/vaueNQKKoKmRUBdtnJoY1kctBHG5LDNWv2Wqhl9ECbFuy5+hCKC2EOqDeJ7ahPzWrJvC0h5L6Piw4evqZuugTuavOzAr0WrD1MN61jJiTY6VhUZ+SG4jOr9CJVgxh+VO3tjYCIcCKT5cIstEqPhYBnPjsK81nReAOQ4mqdg9paMFIGE9evUr1Kv5/Oh7S615VsjLBen+mGpKOoKY8/HWplSPkD08F4EievCHy+jLHM9X9I2lfUyWXz7l+MCHKIr/l3XaGQz3Bv+Eu51xmqK+vxwQLBCQiF+I7lMXfqPPTGR79G5aT0iV1H8tZSo9xvV9m8xBCwpOyg=
