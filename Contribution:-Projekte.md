@@ -3,15 +3,18 @@
 
 1. Installiere git-lfs, was du für downloaden der Webseite benötigst.
 ([Siehe](https://github.com/ToolboxBodensee/toolbox-webseite/wiki/Installation))
+*Dies muss man nur einmal machen, dann ist es installiert!*
 ```bash
 # kurzfassung:
 curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
 ```
-2. Dieses Repository forken oder einen neuen Branch machen (übers GitHub Interface)
+2. Dieses Repository forken oder einen neuen Branch erstellen (übers GitHub Interface[1](https://github.com/toolboxbodensee/tollbox-webseite.git))
 3. Geforktes Repository auf deinen Computer Clonen
 ```bash 
-git clone https://github.com/<dein_github_benutzer>/toolbox-webseite.git
+git lfs clone https://github.com/<dein_github_benutzer>/toolbox-webseite.git
 ```
+*Wenn das schief geht, dann hast du wohl nich git-lfs korrekt installiert.*
+
 3. Öffne deine Kommandozeile im geklonten Repository-Fork 
 ```bash
 cd toolbox-webseite
@@ -24,13 +27,14 @@ make install
 
 6. Webseite updaten... (unter [http://localhost:5000/](http://localhost:5000/))
 ```
-lektor server
+make server
 ```
-7. Lektor Beenden (Strg. + C)
+7. Lektor Beenden (``Strg. + C``)
 8. Änderungen commiten 
 ```
 git add --all
 git commit -m "An der Webseite habe ich ____ geändert"
+
 ```
 8. Änderungen hochladen
 ```
