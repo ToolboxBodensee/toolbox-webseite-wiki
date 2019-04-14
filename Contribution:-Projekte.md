@@ -2,13 +2,13 @@
 ===========
 
 1. Installiere git-lfs, was du für downloaden der Webseite benötigst.
-([Siehe](https://github.com/ToolboxBodensee/toolbox-webseite/wiki/Installation))
+([Siehe](https://github.com/ToolboxBodensee/toolbox-webseite/wiki/Grundlagen%3A-git-LFS))
 *Dies muss man nur einmal machen, dann ist es installiert!*
 ```bash
 # Kurzfassung:
 curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
 ```
-2. Dieses Repository forken oder einen neuen Branch erstellen (übers [GitHub Interface](https://github.com/toolboxbodensee/tollbox-webseite.git))
+2. Dieses Repository forken oder einen neuen Branch erstellen (übers [GitHub Interface](https://github.com/ToolboxBodensee/toolbox-webseite))
 3. Geforktes Repository auf deinen Computer clonen
 ```bash 
 git lfs clone https://github.com/<dein_github_benutzer>/toolbox-webseite.git
@@ -19,13 +19,13 @@ git lfs clone https://github.com/<dein_github_benutzer>/toolbox-webseite.git
 ```bash
 cd toolbox-webseite
 ```
-5. Installiere dir lektor, um die Webseite zu bearbeiten. ([Siehe](https://github.com/ToolboxBodensee/toolbox-webseite/wiki/Installation))
+5. Installiere dir lektor, um die Webseite zu bearbeiten. ([Siehe](https://github.com/ToolboxBodensee/toolbox-webseite/wiki/Grundlagen%3A-Lektor-CMS))
 ```
 # Kurzfassung
 make install
 ```
 
-6. Webseite updaten... (unter [http://localhost:5000/](http://localhost:5000/))
+6. Webseite updaten ... (unter [http://localhost:5000/](http://localhost:5000/))
 ```
 make server
 ```
